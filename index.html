@@ -5,40 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>HTML Portfolio | Home</title>
 </head>
 
-<!-- TODO 3: Copy contents of body into contact.html and portfolio.html AFTER generating working CSS for Layout -->
 <body>
-    <header> <!-- Header is universal, with tweaks to nav to reflect active page. -->
-        <div class="content"> <!-- TODO 2: This class sets the width to 960px -->
-            <!-- TODO 1: Vertically center content -->
-            <h1 class="header-h1">David Kraft</h1>
-            <nav> <!-- TODO 2: Use <ul> tags with display property: inline. Make sure to apply to li tags, not the ul tag. No leading bullet. -->
-
+    <header  class="header-background-color header-border">
+        <div class="content-width">
+            <h1 class="header-h1 headings-teal">David Kraft</h1>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <nav>
             </nav>
         </div>
     </header>
 
-    <!-- TODO 1: Insert a vertical gap of about 30px -->
-    
-    <div class="content"> <!-- TODO 2: apply padding to center content and give space between edge of main section. -->
-        <section> <!-- TODO 2: Include a color for formatted h1 and hr lines. -->
-
+    <div class="content-width main-margins">
+        <section class="content-heading">
+            <h1 class="content-heading-h1 headings-teal">
+                About Me
+            </h1>
+            <hr />
         </section>
         <article>
-
-            <!-- TODO 4: Insert page specific content here. -->
-
+            <p class="regular-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus, ex id pellentesque aliquet,
+                elit leo tincidunt lorem, quis lobortis mi lectus id ex. Duis sit amet finibus ipsum, et facilisis mi.
+                Donec laoreet congue fermentum. Suspendisse eu est dui. Etiam in lobortis odio, nec luctus quam. Nulla
+                facilisi. Fusce congue suscipit volutpat. Nunc leo mauris, posuere ac sagittis nec, malesuada quis
+                lectus. Mauris accumsan elit a magna placerat convallis. Quisque scelerisque eget purus eu malesuada.
+                Nullam ut tristique lorem, tincidunt posuere diam. Morbi tempor justo vel elit ultricies sollicitudin.
+                Aenean mollis augue felis, quis rutrum risus consectetur vitae. Donec nec purus eros. Maecenas
+                convallis aliquam dui et semper. In gravida urna sit amet nulla congue, id luctus nisi suscipit.
+            </p>
+            <p class="regular-text">
+                Nunc condimentum mi augue, vel pretium sem lobortis ac. Proin fringilla, orci id sagittis mollis,
+                tellus mauris congue ligula, vitae dapibus nibh dolor sit amet dui. Vivamus ac nibh eget elit ultricies
+                maximus sit amet sed elit. Maecenas ultrices orci eu semper efficitur. Vestibulum eu euismod tellus.
+                Praesent quis risus ultrices, lacinia lorem vel, malesuada sem. Ut venenatis tincidunt cursus. Vivamus
+                imperdiet massa et dapibus ultricies. Proin finibus dui quis sem euismod, ut commodo ligula iaculis.
+                Vestibulum aliquet imperdiet viverra. Maecenas eget efficitur purus, non rhoncus dolor. Aliquam rutrum
+                enim sed leo accumsan maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia Curae;
+            </p>
+            <p class="regular-text">
+                Curabitur elementum diam vel gravida varius. Fusce sollicitudin nunc in tristique tristique. Ut metus
+                metus, auctor gravida neque non, dapibus finibus eros. Nunc dignissim ligula ac aliquet elementum.
+                Curabitur ex sapien, tristique at scelerisque eget, aliquet et mi. Vivamus quis risus eget diam tempor
+                mattis in sed est. In lacinia pharetra orci ut vestibulum. Vestibulum faucibus quam at nibh ultrices
+                blandit. Duis efficitur rhoncus eros, ut accumsan ligula ornare ut. Praesent faucibus nisi ac arcu
+                fermentum dictum. Phasellus eget mi augue. Interdum et malesuada fames ac ante ipsum primis in
+                faucibus.
         </article>
     </div>
 
-    <!-- TODO 1: Insert a vertical gap of about 100px. -->
-
-    <footer class="footer-position">  <!-- TODO 2: define footer-position and footer-text -->
-
+    <footer class="footer-position">
         <p class="footer-text">
-
+            Copyright &copy;
         </p>
     </footer>
 </body>

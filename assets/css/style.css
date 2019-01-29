@@ -1,0 +1,26 @@
+.headings-text {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.background-teal {
+    background-color: #4aaaa5
+}
+.regular-text {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif
+}
+.header-background-color {
+    background-color: #ffffff
+}
+.header-border {
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 5px
+}
+.footer-background-color {
+    background-color: #666666
+}
+.profile-img {
+    margin-right: 15px;
+    margin-bottom: 15px
+}
