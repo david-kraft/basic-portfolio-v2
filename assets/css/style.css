@@ -1,26 +1,128 @@
+/* Site-wide */
 .headings-text {
     color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content-heading {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    height: 90px;
+}
+.content-heading-h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+.headings-teal {
+    color: #4aaaa5;
+}
+.content-width {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .background-teal {
-    background-color: #4aaaa5
-}
-.regular-text {
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif
+    background-color: #4aaaa5;
 }
 .header-background-color {
-    background-color: #ffffff
+    background-color: #ffffff;
 }
 .header-border {
     border-bottom-color: #cccccc;
     border-bottom-style: solid;
-    border-bottom-width: 5px
+    border-bottom-width: 5px;
 }
 .footer-background-color {
-    background-color: #666666
+    background-color: #666666;
 }
+.footer-position {
+    height: 60px;
+}
+.footer-border {
+    border-top-color: #64a8a4;
+    border-top-width: 7px;
+    border-top-style: solid;
+}
+.footer-text {
+    margin-right: auto;
+    margin-left: auto;
+    color: #4aaaa5;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: bottom;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
+}
+.nav-list {
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.nav-list-item {
+    display: inline-block;
+    color: #4aaaa5;
+    font-size: 18pt;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* Applied to index.html */
 .profile-img {
     margin-right: 15px;
     margin-bottom: 15px;
+}
+.bio-text {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Applied to contact.html */
+.form-name-input, .form-email-input, .form-message-input{
+    width:100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    font-size: 11pt;
+    border-color: #dddddd;
+    box-sizing: border-box;
+}
+.form-message-input {
+    height: 200px;
+    resize: vertical;
+}
+
+
+
+/* Applied to portfolio.html */
+.portfolio-item {
+    display: inline-block;
+    width: 275px;
+    height: 200px;
+    margin: 28px 20px;
+    border: none;
+    position: relative;
+}
+.portfolio-item-caption {
+    z-index: 2;
+    width: 100%;
+    background-color: #4aaaa5;
+    height: 60px;
+    position: absolute;
+    top: 138px;
+}
+.portfolio-item-caption-text {
+    color: #ffffff;
+    font-size: 18pt;
+    text-align: center;
+    line-height: 60px;
+}
+.portfolio-item-image {
+    z-index: 1;
 }
